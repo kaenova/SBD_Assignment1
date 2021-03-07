@@ -1,5 +1,5 @@
 
-# Tubes_PBD
+# SBD_Assignment1
 Kaenova Mahendra Auditama<sup>1</sup><br>
 Armadhani Hiro Juni Permana<sup>2</sup><br>
 Maulana Nur<sup>3</sup><br>
@@ -11,22 +11,20 @@ Informatics Engineering, Telkom University, Indonesia<br>
 
 ## [English]
 
-This program is created to create a database in Oracle using SQL. The script is formed with the business rules it provides where there are several needs that must be met. We were given the theme ENJ Delivery Services. Several business rules must be met, such as: 
+In the previous semester on the <a href="https://github.com/kaenova/Tubes_PBD"> Tubes_PBD </a> repository, we were asked to design a Database for ENJ companies. After designing the database, we are now asked to see how the database is performing by using indexing and not using indexing. The following is a more complete explanation of the task:
 
-1. ENJ delivery service requires a system to store package delivery transaction data. The sender can send 1 package to 1 recipient address. Senders can also send multiple packages with different receipts and recipient numbers. The required sender data is the sender id, name, address, and phone number. The data recipient also consists of the recipient's id, name, address, and phone number. 
-2. Each sender will be recorded by an admin who records delivery information. The admin is only in one branch, not in another branch. Branch data consists of id_cabang, nama_cabang, address, and phone number.
-3. Admin is obliged to input the data package with information on the data sender, receiver, and data package. Package data includes package_id, delivery_day, delivery_date, delivery time, package type, package_weight, package_ price, service selected by the sender, and fees paid by the sender.
-4. The sender also gets a packet receipt report. The packet receipt report contains id_l Report, data when the packet was received, who sent the package, and who received it. 
+1. The table contains at least 3 tables, where the reference table (no fk) contains at least 100 records, and the non-reference table (with fk) contains at least 500 records.
+2. Analysis of possible attributes to speed up database performance using indexing.
+2. Create 5 possible queries in real-world scenarios, and record each time of the 5 queries that use queries and those that do not.
 
 
 ## [Bahasa Indonesia]
 
-Program ini dibuat untuk membuat database dalam Oracle dengan menggunakan sql. Script ini dibentuk dengan diberikannya business rules yang dimana ada beberapa kebutuhan yang harus dipenuhi. Kami diberikan tema Pengiriman ENJ. Ada beberapa rules yang harus dipenuhi, seperti:
+Pada semester sebelumnya pada repository <a href="https://github.com/kaenova/Tubes_PBD">Tubes_PBD</a>, kami diminta untuk merancang Data Base untuk perusahaan ENJ. Setalah dirancangnya database tersebut, sekarang kami diminta untuk melihat performansi database tersebut dengan menggunakan indexing dan tidak menggunakan indexing. Berikut penjelasan lebih lengakap dari tugas tersebut:
 
-1.  Jasa pengiriman ENJ membutuhkan sebuah sistem untuk menyimpan data transaksi pengiriman paket. Pengirim dapat mengirim 1 paket kepada 1 alamat penerima. Pengirim juga dapat mengirim banyak paket dengan nomor resi dan penerima yang berbeda-beda. Data pengirim yang dibutuhkan adalah id_pengirim, nama, alamat dan no_hp. Data penerima juga terdiri dari id_penerima, nama, alamat dan no_hp.
-2.  Setiap pengirim akan didata oleh seorang admin yang bertugas mencatat informasi pengiriman. Admin hanya berada pada satu cabang saja tidak berada pada cabang yang lain. Data cabang terdiri dari id_cabang, nama_cabang, alamat dan telp.
-3.  Admin wajib menginputkan data paket dengan informasi data pengirim, penerima dan data paket. Data paket mencakup pada id_paket, hari_kirim, tanggal_kirim, waktu kirim, jenis paket, berat_paket, harga_paket, layanan yang dipilih oleh pengirim serta biaya yang dibayar oleh pengirim.
-4.  Pengirim juga mendapatkan laporan penerimaan paket. Laporan penerimaan paket berisi id_laporan, data kapan paket diterima, siapa yang mengirim paket dan siapa yang menerima paket.
+1.  Tabel minimal berisi 3 tabel, diamna tabel reference (tidak ada fk) minimal berisi 100 records, dan tabel non-reference (ada fk) minimal berisi 500 records
+2.  Analisa atribut yang memungkinkan untuk mempercepat performansi database dengan menggunakan indexing.
+2.  Mmebuat 5 query yang mungkin terjadi pada real-world scenario, dan catat setiap waktu dari 5 query tersebut yang menggunakan query dan yang tidak menggunakna query.
 
 <img  align= "right" src="https://cdn.discordapp.com/attachments/527433841690804224/791558706508726292/Pre-comp-3.gif"  width="200">
-# SBD_Assignment1
+
